@@ -2,7 +2,7 @@
   <div class="container">
     <div class="sidebar">
       <div class="sidebar__logo">
-        <img src="logo.svg" width="40" height="20" />
+        <img src="~/assets/img/logo.svg" width="40" height="20" />
       </div>
       <div class="sidebar__btn-group">
         <button
@@ -11,7 +11,7 @@
           :class="{ 'sidebar__btn--active': $route.path === '/inbox' }"
         >
           <div class="sidebar__btn-title">
-            <img src="icons/inbox-icon.svg" width="24" height="24" />
+            <img src="~/assets/icons/inbox-icon.svg" width="24" height="24" />
             Inbox
           </div>
 
@@ -23,7 +23,7 @@
           :class="{ 'sidebar__btn--active': $route.path === '/archive' }"
         >
           <div class="sidebar__btn-title">
-            <img src="icons/archive-icon.svg" width="24" height="24" />
+            <img src="~/assets/icons/archive-icon.svg" width="24" height="24" />
             Archive
           </div>
 
@@ -33,7 +33,7 @@
 
       <button class="sidebar__logout-btn">
         <div class="sidebar_logout-btn-title">
-          <img src="icons/logout-icon.svg" width="24" height="24" />
+          <img src="~/assets/icons/logout-icon.svg" width="24" height="24" />
           Logout
         </div>
       </button>

@@ -10,16 +10,16 @@
     <div class="email-modal__modal-container" v-if="show" @click.stop>
       <div class="email-modal__header-buttons">
         <div class="email-modal__close-btn" @click="closeModal">
-          <img src="icons/x-icon.svg" alt="close" />
+          <img src="~/assets/icons/x-icon.svg" alt="close" />
           Close (Esc)
         </div>
         <div class="email-modal__options-btn-group">
           <div class="email-modal__options-btn" @click="markAsRead()">
-            <img src="icons/email-icon.svg" alt="mark as read" />
+            <img src="~/assets/icons/email-icon.svg" alt="mark as read" />
             <span>Mark as read (r)</span>
           </div>
           <div class="email-modal__options-btn" @click="unarchiveEmail()">
-            <img src="icons/trash-icon.svg" alt="archive" />
+            <img src="~/assets/icons/trash-icon.svg" alt="archive" />
             <span v-if="!email.archived">Archive (a)</span>
             <span v-else>Unarchive (a)</span>
           </div>

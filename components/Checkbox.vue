@@ -1,7 +1,7 @@
 <template>
   <div class="checkbox--checked" v-if="checked">
     <img
-      src="icons/check-icon.svg"
+      src="~/assets/icons/check-icon.svg"
       class="checkbox__icon--checked"
       alt="check"
     />

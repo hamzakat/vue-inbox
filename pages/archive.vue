@@ -22,7 +22,7 @@
           @click="unarchiveEmails(selectedEmails)"
           v-if="selectedEmails.size > 0"
         >
-          <img src="icons/trash-icon.svg" alt="archive" />
+          <img src="~/assets/icons/trash-icon.svg" alt="archive" />
           <span>Unarchive (a)</span>
         </div>
         <div
@@ -30,7 +30,7 @@
           @click="markEmailsAsRead(selectedEmails)"
           v-if="selectedEmails.size > 0"
         >
-          <img src="icons/email-icon.svg" alt="mark as read" />
+          <img src="~/assets/icons/email-icon.svg" alt="mark as read" />
           <span>Mark as read (r)</span>
         </div>
       </div>
